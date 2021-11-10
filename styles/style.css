@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Red+Hat+Mono:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Mono', monospace;
+    /*'Red Hat Mono', monospace 'Quicksand', sans-serif*/
+}
+body {
+    
+}
+
+.container {
+    display: grid;
+    min-height: 95vh;
+    grid-template-rows: 20vh;
+    align-content: center;
+}
+.container .img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100vw;
+    height: 95vh;
+    filter: blur(1px) brightness(30%);
+}
+
+.container .content {
+    color: rgb(201, 201, 201);
+    text-align: center;
+    z-index: 2;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.container .content > * {
+    padding: 5px;
+}
