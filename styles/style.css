@@ -8,7 +8,6 @@
     /*'Red Hat Mono', monospace 'Quicksand', sans-serif*/
 }
 body {
-    
 }
 
 .container {
@@ -16,22 +15,51 @@ body {
     min-height: 95vh;
     grid-template-rows: 20vh;
     align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
 .container .img {
-    top: 0;
-    left: 0;
     position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: -2.5vh;
     width: 100vw;
     height: 95vh;
-    filter: blur(1px) brightness(30%);
 }
 
 .container .content {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 65vw;
+    height: 40vh;
     color: rgb(201, 201, 201);
     text-align: center;
     z-index: 2;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.05);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 }
 .container .content > * {
     padding: 5px;
+}
+
+.container_content {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-width: 80vw;
+    min-height: 50vh;
+}
+.container_content .container_habilidades {
+    display: flex;
+}
+.container_content .container_habilidades > * {
+    width: 50px;
+    height: 50px;
+    background-color: black;
 }
