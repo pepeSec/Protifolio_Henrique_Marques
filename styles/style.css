@@ -8,7 +8,7 @@
     /*'Red Hat Mono', monospace 'Quicksand', sans-serif*/
 }
 body {
-    background-image: linear-gradient(to right, rgb(5, 36, 95), rgb(87, 26, 156));
+    background-color: rgb(200, 200, 200);
 }
 
 .container {
