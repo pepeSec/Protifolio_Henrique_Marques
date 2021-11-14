@@ -72,10 +72,11 @@ body {
     margin: 40px;
 }
 .container_content .container_habilidades > div {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100px;
-    height: 100px;
     margin: 5px;
     background-color: rgba(0, 0, 0, 0.05);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -95,6 +96,6 @@ body {
     margin: 10px;
 }
 .container_content .container_habilidades div h3 {
-    text-align: center;
+    margin: 5px;
     font: 500 12pt 'Quicksand', sans-serif;
 }
