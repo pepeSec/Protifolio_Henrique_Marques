@@ -69,7 +69,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin: 40px;
 }
 .container_content .container_habilidades > div {
     display: grid;
