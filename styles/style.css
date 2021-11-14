@@ -51,15 +51,20 @@ body {
 .container_content {
     display: grid;
     justify-content: center;
+    justify-items: center;
     align-content: center;
+    align-content: space-around;
     min-width: 80vw;
     min-height: 50vh;
 }
 .container_content .container_habilidades {
+    width: 80vw;
     display: flex;
+    justify-content: space-evenly;
 }
-.container_content .container_habilidades > * {
+.container_content .container_habilidades > div {
     width: 50px;
     height: 50px;
+    margin: 5px;
     background-color: black;
 }
