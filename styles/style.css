@@ -99,3 +99,64 @@ body {
     margin: 5px;
     font: 500 12pt 'Quicksand', sans-serif;
 }
+
+.container_contentp {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-content: flex-start;
+    min-width: 100vw;
+    min-height: 50vh;
+}
+.container_contentp .container_projeto {
+    width: 500px;
+    height: 281px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: all 0.4s;
+}
+.slide {
+    width: 1500px;
+}
+.images img{
+    width: 500px;
+    height: 281px;
+}
+#atual {
+    margin-left: 0px;
+    transition: all 2s;
+}
+.btn {
+    position: absolute;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 1.7em;
+    margin-top: -5px;
+}
+.btn:hover {
+    transform: scale(1.2);
+}
+#voltar {
+    top: 167%;
+    left: 29.5%;
+}
+#next {
+    top: 167%;
+    right: 28%;
+}
+.balls {
+    position: absolute;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+}
