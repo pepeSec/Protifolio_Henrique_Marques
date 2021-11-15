@@ -110,11 +110,20 @@ body {
     min-height: 50vh;
 }
 .container_contentp .container_projeto {
-    width: 500px;
-    height: 281px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 500px;
+    height: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
-    overflow: hidden;
-    border-radius: 15px;
-    transition: all 0.4s;
+}
+.container_contentp .container_projeto .projects {
+    width: 250px;
+    height: 250px;
+}
+.container_contentp .container_projeto .projects h2 {
+    font: 500 14pt 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 10px;
 }
