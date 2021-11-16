@@ -237,6 +237,25 @@ body {
 }
 .modal > h3 {
     margin-top: 10px;
+    margin-bottom: 20px;
     text-align: end;
     font: 700 12pt "Red Hat Mono", monospace;
+}
+.modal .link {
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    margin-left: -60px;
+    padding: 8px;
+    border-radius: 20px;
+    border: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.699);
+    background-color: rgb(39, 34, 90);
+}
+.modal .link > a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    font-family: "PT Mono", monospace;
+    cursor: pointer;
 }
