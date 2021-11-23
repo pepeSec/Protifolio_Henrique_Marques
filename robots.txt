@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+Disallow: /js/
+Disallow: /styles/
+Disallow: /images/
+
+Sitemap: https://pepesec.github.io/henrique.marques/sitemap.xml

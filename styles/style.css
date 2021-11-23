@@ -48,11 +48,13 @@ body {
 .container .content > * {
     padding: 5px;
 }
-.container .content > h2 {
+.container .content > h1 {
     width: 520px;
+    font: 700 18pt 'Red Hat Mono', monospace;
 }
-.container .content > h2::after {
+.container .content > h1::after {
     content: '|';
+    color: hsl(245, 60%, 30%);
     margin-left: 5px;
     opacity: 1;
     animation: pisca .7s infinite;
