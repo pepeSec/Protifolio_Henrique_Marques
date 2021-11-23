@@ -94,7 +94,7 @@ body {
 }
 .container_contenth > h2 {
     margin-top: 30px;
-    font: 700 18pt 'Red Hat Mono', monospace;
+    font: 700 20pt 'Red Hat Mono', monospace;
 }
 .container_contenth .container_habilidades {
     width: 50vw;
@@ -175,7 +175,7 @@ body {
 }
 .container_contentp > h2 {
     margin-top: 40px;
-    font: 700 18pt 'Red Hat Mono', monospace;
+    font: 700 20pt 'Red Hat Mono', monospace;
 }
 .container_contentp .container_projeto {
     display: flex;
